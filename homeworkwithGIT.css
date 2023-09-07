@@ -1,0 +1,51 @@
+.tabs{
+    width: 1170px;
+    display: inline-block;
+}
+.tab1{
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #C6CBCD;
+    display: flex;
+    width: 203px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: none;
+}
+.tab2{
+    display: flex;
+    width: 184px;
+    height: 40px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.tab3{
+    width: 184px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.picture{
+    display: inline-block;
+    width: 470px;
+    height: 500px;
+    flex-shrink: 0;
+    
+
+}
+.Download{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 60;
+    line-height: normal;
+    text-transform: capitalize;
+    background: #EC7979;
+    width: 270px;
+    height: 58px;
+    text-decoration: none
+}
