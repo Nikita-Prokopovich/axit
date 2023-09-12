@@ -1,6 +1,6 @@
 .tabs{
     width: 1170px;
-    display: inline-block;
+    display: inline;
 }
 .tab1{
     border-radius: 5px 5px 0px 0px;
@@ -10,28 +10,29 @@
     height: 40px;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
     border-bottom: none;
 }
 .tab2{
+    margin: 0 auto;
     display: flex;
     width: 184px;
     height: 40px;
     align-items: center;
-    flex-shrink: 0;
+    
 }
 .tab3{
+    margin: 0 auto;
     width: 184px;
     height: 40px;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
+    
 }
 .picture{
     display: inline-block;
     width: 470px;
     height: 500px;
-    flex-shrink: 0;
+    
     
 
 }
@@ -41,7 +42,7 @@
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
-    font-weight: 60;
+    font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
     background: #EC7979;
