@@ -14,11 +14,12 @@
 
 
 .main{
-    border: 1px solid #C6CBCD;
     width: 1170px;
     display: inline-flex;
     justify-content: end;
-
+    border-left: 1px solid #C6CBCD;
+    border-bottom: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
 }
 .tabs{
     width: 1170px;
@@ -28,7 +29,7 @@
     
     
 }
-.tab1{
+.tabs__tab1{
     border-radius: 5px 5px 0px 0px;
     border: 1px solid #C6CBCD;
     display: flex;
@@ -40,7 +41,7 @@
     margin: 0;
     padding: 0;
 }
-.tab2{
+.tabs__tab2{
     margin: 0 auto;
     display: flex;
     width: 184px;
@@ -49,9 +50,10 @@
     justify-content: center;
     margin: 0;
     padding: 0;
+    border-bottom: 1px solid #C6CBCD; 
     
 }
-.tab3{
+.tabs__tab3{
     margin: 0 auto;
     width: 184px;
     height: 40px;
@@ -60,13 +62,15 @@
     align-items: center;
     margin: 0;
     padding: 0; 
+    border-bottom: 1px solid #C6CBCD;
 }
-.tab4{
+.tabs__tab4{
     width: 600px;
     height: 40px;
+    border-bottom: 1px solid #C6CBCD;
 }
 
-.Download{
+.block-left__download{
     color: #FFF;
     font-family:Open Sans;
     font-size: 18px;
@@ -79,13 +83,17 @@
     display: flex;
     justify-content: center;
     text-decoration: none; 
-    align-items: center;
-    
+    align-items: center; 
+}
+
+.block-left__download:hover{
+    color:rgb(117, 117, 208);
+    background-color: red;
 }
 
 
 
-.pictures{
+.block-right{
     width: 470px;
     height: 500px;
     
@@ -95,7 +103,7 @@
     margin: 0 0 0 100px;
     
 }
-.Lorem{
+.block-left__text{
     color: #000;
 font-family: Raleway;
 font-size: 18px;
@@ -103,7 +111,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-.Tabs__with{
+.block-left__title{
     color: #000;
     font-family: Open Sans;
     font-size: 30px;

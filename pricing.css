@@ -4,6 +4,7 @@ body{
 .container3{
     background: #F5F5F5;
     width: 100%;
+    margin: 0 auto;
     
     
 }
@@ -45,13 +46,13 @@ body{
     font-weight: 400;
     line-height: normal;
 }
-.pricing__block{
+.pricing-block{
     margin: 0 15px 0 15px; 
     padding: 59px 0 50px 0;
     
     
 }
-.top__word{
+.pricing-block__type{
     margin: 0 auto;
     background: #333;
     width: 370px;
@@ -73,7 +74,7 @@ body{
 
 
 }
-.center__word{
+.pricing-block__price{
     margin: 0 auto;
     width: 370px;
     height: 100px;
@@ -91,7 +92,7 @@ body{
     justify-content: center;
     flex-shrink: 0;
 }
-.bottom__word{
+.pricing-block__free{
     margin: 0 auto;
     width: 370px;
     height: 50px;
@@ -109,7 +110,7 @@ body{
     justify-content: center;
     flex-shrink: 0;
 }
-.GB__Of{
+.pricing-block__gb{
     margin: 0 auto;
     width: 370px;
     height: 50px;
@@ -136,7 +137,7 @@ body{
     
     
 }
-section:hover{
+.pricing-block:hover{
     position: relative;
     bottom: 50px;
 }
