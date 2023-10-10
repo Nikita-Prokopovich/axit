@@ -1,0 +1,312 @@
+.axit_title{
+    width: 1510px;
+    height: 75px;
+    display: flex;
+    background-color: black;
+}
+.axit_logo{
+    width: 183.099px;
+    height: 74.854px;
+    margin-left: 115px;
+}
+.axit_title__tab{
+    text-decoration: none;
+    display: flex;
+    width: 114px;
+    height: 75px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    left: 350px;
+}
+.axit-main{
+    width: 1510px;
+    height: 951px;
+    background-color: black;
+    background-image: url('NY.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ax-icon{
+    margin-left: 170px;
+    margin-top: 306px;
+}
+.axit-main__title{
+    width: 670px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase; 
+    margin-left: 170px ;
+    margin-top: 73px;
+}
+.axit__separator{
+    width: 170px;
+    height: 1px;
+    background: #FFF;
+    margin-left: 170px;
+    margin-top: 55px;
+}
+.axit-main__subtitle{
+    width: 270px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left:170px; 
+    margin-top: 42px;
+}
+.axit-main__button{
+    display: flex;
+    width: 270px;
+    height: 58px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    border: 1px solid white;
+    margin-left:170px;
+    margin-top: 42px;
+}
+.axit-main__button:hover{
+    background-color: #FFF;
+    color: black;
+}
+.axit-main_plate{
+    width: 470px;
+    height: 450px;
+    background-color: #FFF;
+    border-radius: 10px;
+    position: relative;
+    bottom: 565px;
+    left: 870px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.axit-main_plate__title{
+    display: flex;
+    width: 367px;
+    height: 90px;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    max-width: 0 auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.FREE{
+    color: #EC7979;
+}
+.axit-main_plate_info{
+    width: 370px;
+    color: #BDBDBD;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.axit-main_plate_details{
+    display: flex;
+    width: 370px;
+    flex-wrap: wrap;
+}
+.axit-main_plate__button{
+    display: flex;
+    width: 470px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color:#EC7979 ;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin-top: 70px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.axit-main_plate__button:hover{
+    background-color: #eb4040;
+    color: black;
+}
+.axit_footer{
+    width: 1510px;
+    height: 140px;
+    background-color: #F8EFEF;
+    margin-top: 0;
+    display: flex;
+
+}
+.axit_footer_left{
+    width: 640px;
+    
+}
+.axit_footer_right{
+    width: 800px;
+}
+
+.axit_footer_left__title{
+    display: flex;
+    width: 470px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #333;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 auto;
+    margin-left: 170px;
+}
+.axit_footer_left__subtitle{
+    width: 470px;
+    color: #86878B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    margin-left: 170px;
+    margin-top: 18px;
+}
+.axit_footer_right-icon{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+@media (max-width:1024px) {
+    .axit_title{
+        width: 1024px;}
+    .axit_title__tab{
+        left: 100px;
+    }
+    .axit-main{
+        width: 1024px;
+        background-color: black;
+        background-image: url('NY2.png');
+        /* height: 693px; */
+    }
+    .ax-icon{
+        margin-left: 115px;
+        margin-top: 211px;}
+    .axit-main__title{
+        width: 454px;
+        font-size: 36px;
+        margin-left: 115px;
+        margin-top: 38px;
+    }
+    .axit__separator{
+        width: 115px;
+        margin-left: 115px;
+        margin-top: 41px;
+    }
+    .axit-main__subtitle{
+        font-size: 14px;
+        width: 183px;
+        margin-left:115px; 
+        margin-top: 31px;
+    }
+    .axit-main__button{
+        width: 183px;
+        margin-top: 31px;
+        margin-left: 115px;
+        height: 50px;
+    }
+    .axit-main_plate{
+        width: 398px;
+        bottom: 462px;
+        left: 579px;
+    }
+    .axit-main_plate__button{
+        width: 398px;
+    }
+
+    .axit-main_plate__title{
+        width: 298px;
+        font-size: 18px;
+        justify-content: center;
+    }
+    .axit-main_plate_info{
+        width: 298px;
+        
+    }
+    .axit-main_plate_details{
+        justify-content: center;}
+    .axit_footer{
+        width: 1024px;
+        height: 105px;
+    }
+    .axit_footer_left{
+        width: 390px;
+    }
+    .axit_footer_left__title{
+        margin-left: 16px;
+        font-size: 18px;
+        width: 380px;
+        height: 45px;
+    }
+    .axit_footer_left__subtitle{
+        margin-left: 16px;
+        margin-top: 5px;
+        font-size: 14px;
+        width: 380px;
+        
+    }
+    .axit_footer_right{
+        width: 630px;
+        
+    }
+    .axit_footer_right-icon{
+        width: 64px;
+        height: 64px;
+        margin-top: 26px;
+        margin-left: 20px;
+    }
+
+}
