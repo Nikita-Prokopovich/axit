@@ -7,7 +7,7 @@
     
 }
 .container{
-    width: 1170px;
+    width: 100%;
     background: #FFF;
     margin: 0 auto;
     text-align: center;
@@ -101,6 +101,28 @@
     height: 500px;
     
 }
+@media (max-width:1190px) {
+    .block-right{
+        display:none;}
+    .block-left{ width: 100%;}
+    
+    .main{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+    }
+    .tabs{
+        width: 100%;
+        display: flex;}
+    .tabs__tab4{
+        width: 100%;}
+        .block-left__text{
+            width: 100%;
+        }
+        .block-left__title{
+            width: 100%;}
+}
+
 .block-left{
     width: 650px;
     margin: 0 0 0 100px;

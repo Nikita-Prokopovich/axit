@@ -32,7 +32,7 @@
     width: 1510px;
     height: 951px;
     background-color: black;
-    background-image: url('NY.png');
+    background-image: url('/учеба/Reposit/Test/axit/img/NY.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -220,7 +220,7 @@
     margin-top: 35px;
     margin-left: 30px;
 }
-@media (max-width:1024px) {
+@media (max-width:1300px) {
     .axit_title{
         width: 1024px;}
     .axit_title__tab{
@@ -229,7 +229,7 @@
     .axit-main{
         width: 1024px;
         background-color: black;
-        background-image: url('NY2.png');
+        background-image: url('/учеба/Reposit/Test/axit/img/NY2.png');
         /* height: 693px; */
     }
     .ax-icon{
